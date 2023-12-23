@@ -1,0 +1,30 @@
+.container {
+  background-color: black;
+  width: 500px;
+  height: 200px;
+  border-radius: 50px;
+}
+#timeToDisplay {
+  color: greenyellow;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.buttons button {
+  background-color: greenyellow;
+  color: black;
+  font-size: 1em;
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.buttons button:hover {
+  cursor: pointer;
+  background-color: grey;
+  font-weight: bold;
+}
